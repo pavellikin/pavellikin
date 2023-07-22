@@ -1,16 +1,20 @@
-### Hi there 👋
+### Hey 👋, I'm Pavel
 
-<!--
-**pavellikin/pavellikin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![telegram](https://img.shields.io/static/v1?style=flat-square&message=telegram&color=26A5E4&logo=Telegram&logoColor=FFFFFF&label=)](https://t.me/Burnout171)
+[![Linkedln](https://img.shields.io/badge/linkedin-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pavellikin/)
+[![LeetCode](https://img.shields.io/static/v1?style=flat-square&message=leetcode&color=222222&logo=LeetCode&logoColor=FFA116&label=)](https://leetcode.com/pavellikin/)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```kotlin
+data class Me(
+  val technologies: List<String> = listOf(
+    "Java", 
+    "Kotlin",
+    "PostgreSQL", 
+    "Apache Kafka"
+  ),
+  val expirience: Map<String, String> = mapOf(
+    "SWE" to "10+ years",
+    "EM" to "2 years"
+  )
+)
+```
